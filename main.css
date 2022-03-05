@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(13, 75, 94);
+    font-family: 'Courier New', Courier, monospace;
+    background-size: cover;
+    min-height: fit-content;
+    background-image: url('https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')
+}
+
+h1{
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeInUp 2s ease forwards;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 4rem;
+}
+
+.countdown-container{
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeInUp 2s ease forwards;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.big-text{
+    margin: 0 2rem -2rem 2rem;
+    font-size: 4rem;
+}
+
+#form{
+    position: absolute;
+    top: 10rem;
+}
+
+input{
+    border: none;
+    border-radius: 1ch;
+    padding: 0.5rem;
+    background: none;
+    cursor: pointer;
+    box-shadow: 0 0 5px #ffffff, 0 0 25px #ffffff, 0 0 50px #ffffff, 0 0 200px #ffffff;
+}
+
+#btn{
+    color: rgb(13, 75, 94);
+    font-family: 'Courier New', Courier, monospace;
+    border: 0.1px;
+    padding: 0.5rem;
+    background: none;
+}
+
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(13, 75, 94);
+    color: whitesmoke;
+}
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+
