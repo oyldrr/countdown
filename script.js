@@ -22,8 +22,6 @@ function countdown()
     hoursElement.innerHTML = formatTime(hours);
     minutesElement.innerHTML = formatTime(minutes);
     secondsElement.innerHTML = formatTime(seconds);
-
-    console.log(days, hours, minutes, seconds);
 }
 
 myForm.addEventListener("submit", function(e){

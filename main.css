@@ -8,7 +8,7 @@ body{
     color: rgb(13, 75, 94);
     font-family: 'Courier New', Courier, monospace;
     background-size: cover;
-    min-height: fit-content;
+    min-height: 87vh;
     background-image: url('https://images.pexels.com/photos/325185/pexels-photo-325185.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')
 }
 
@@ -18,7 +18,7 @@ h1{
     animation: fadeInUp 2s ease forwards;
     text-align: center;
     margin-top: 5rem;
-    font-size: 4rem;
+    font-size: 3rem;
 }
 
 .countdown-container{
@@ -34,13 +34,13 @@ h1{
 }
 
 .big-text{
-    margin: 0 2rem -2rem 2rem;
-    font-size: 4rem;
+    margin: 1rem 2rem 0rem 2rem;
+    font-size: 2rem;
 }
 
 #form{
     position: absolute;
-    top: 10rem;
+    top: 9rem;
 }
 
 input{
@@ -72,5 +72,31 @@ input{
       transform: translateY(0);
     }
   }
+
+  @media (max-width: 512px) {
+    h1{
+        font-size: 1.5rem;
+    }
+
+    .big-text {
+      font-size: 1rem;
+    }
+
+    #form {
+        position: absolute;
+        top: 6rem;
+        width: 75%;
+    }
+
+    input {
+        padding: 0.25rem;
+        width: 15%;
+    }
+
+    .countdown-container{
+        font-size: 0.75rem;
+    }
+}
+  
   
 
