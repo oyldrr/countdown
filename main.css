@@ -56,6 +56,7 @@ input{
     color: rgb(13, 75, 94);
     font-family: 'Courier New', Courier, monospace;
     border: 0.1px;
+    border-radius: 1ch;
     padding: 0.5rem;
     background: none;
 }
@@ -64,6 +65,11 @@ input{
     cursor: pointer;
     background-color: rgb(13, 75, 94);
     color: whitesmoke;
+}
+
+#alert {
+    position: absolute;
+    top: 12rem;
 }
 
   @keyframes fadeInUp {
@@ -90,7 +96,14 @@ input{
 
     input {
         padding: 0.25rem;
-        width: 34.9%;
+        width: 35%;
+    }
+
+    #alert {
+        position: absolute;
+        top: 10rem;
+        font-size: 1rem;
+        font-style: normal;
     }
 
     .countdown-container{
